@@ -1,0 +1,129 @@
+:root {
+  /* colors */
+  --color-white: #FFFFFF;
+  --color-blue: #4338CA;
+  --color-black: #171717;
+  --color-gray: #525252;
+
+  /* typography */
+  --text-sm-size: .875rem;
+  --text-sm-height: 1.25rem;
+
+  --text-base-size: 1rem;
+  --text-base-height: 1.5rem;
+
+  --text-xl-size: 1.25rem;
+  --text-xl-height: 1.75rem;
+
+  /* typography */
+
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
+
+  display: flex;
+  padding: 200px var(--padding-0, 0px);
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  width: 340px;
+  padding: var(--padding-624-px, 24px) var(--padding-416-px, 16px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-1040-px, 40px);
+  border-radius: var(--border-radius-rounded-lg-8-px, 8px);
+  background: var(--colors-base-white, #FFF);
+
+  /* shadow / shadow */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-624-px, 24px);
+  align-self: stretch;
+}
+
+.title {
+  color: var(--Text-secondary, var(--colors-neutral-600, #525252));
+  text-align: center;
+
+  /* text-sm-14/normal */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+.description {
+  color: var(--Text-secondary, var(--colors-neutral-600, #525252));
+  text-align: center;
+
+  /* text-base-16/normal */
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.social-media-list-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--gap-416-px, 16px);
+  align-self: stretch;
+}
+
+.card .bt {
+  display: flex;
+  padding: var(--padding-2510-px, 10px) var(--padding-416-px, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-156-px, 6px);
+  align-self: stretch;
+}
+
+img {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+}
